@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 /bazel-out
+.yam
+.yarn
 
 # Node
 /node_modules
