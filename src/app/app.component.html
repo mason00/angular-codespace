@@ -1,10 +1,11 @@
-<mat-sidenav-container >
+<mat-sidenav-container fullscreen>
   <mat-sidenav mode="side" #sidenav (click)="sidenav.close()">Sidenav content</mat-sidenav>
 
 <mat-toolbar color="primary">
   <button mat-icon-button (click)="sidenav.open()" class="example-icon">
     <mat-icon>menu</mat-icon>
   </button>
+  <mat-icon>menu</mat-icon>
   <a mat-button [matMenuTriggerFor]="dropdown">Screens</a>
   <a mat-button >Next</a>
   <mat-menu #dropdown>
